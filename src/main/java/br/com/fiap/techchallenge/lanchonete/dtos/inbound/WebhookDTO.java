@@ -1,7 +1,6 @@
 package br.com.fiap.techchallenge.lanchonete.dtos.inbound;
 
 import br.com.fiap.techchallenge.lanchonete.entities.StatusPagamento;
-import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 
