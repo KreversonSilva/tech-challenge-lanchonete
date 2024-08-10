@@ -6,7 +6,7 @@ on:
       - release
 
 jobs:
-  Criada do PR para main branch:
+  pr-to-main-branch:
     runs-on: ubuntu-latest
 
     steps:
