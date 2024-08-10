@@ -50,7 +50,7 @@ public class ClienteController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity deletaCliente(@PathVariable(value = "id") Integer id) throws Exception {
+    public ResponseEntity<Integer> deletaCliente(@PathVariable(value = "id") Integer id) throws Exception {
         clienteUseCase.delete(id);
         return ResponseEntity.ok().build();
     }

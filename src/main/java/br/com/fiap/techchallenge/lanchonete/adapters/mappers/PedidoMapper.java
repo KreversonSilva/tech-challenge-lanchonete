@@ -4,7 +4,6 @@ import br.com.fiap.techchallenge.lanchonete.dtos.inbound.PedidoDTO;
 import br.com.fiap.techchallenge.lanchonete.dtos.inbound.WebhookDTO;
 import br.com.fiap.techchallenge.lanchonete.dtos.outbound.PedidoResponse;
 import br.com.fiap.techchallenge.lanchonete.entities.Pedido;
-import br.com.fiap.techchallenge.lanchonete.entities.StatusPagamento;
 import br.com.fiap.techchallenge.lanchonete.entities.dbEntities.PedidoEntity;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
